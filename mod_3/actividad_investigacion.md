@@ -22,7 +22,7 @@ En equipos de 2-3 personas investiguen los temas asignados. Cada equipo entrega 
 1. Define y diferencia: linearizabilidad, consistencia secuencial y consistencia causal. ¿En qué casos el orden importa y en cuáles no?
 2. ¿Qué son los relojes vectoriales? ¿Qué problema resuelven que los relojes de Lamport no pueden resolver?
 3. ¿Qué son las garantías de sesión (*session guarantees*)? Lista las cuatro principales y da un ejemplo de aplicación real para cada una.
-4. Busca un incidente real documentado donde la consistencia eventual causó un problema visible para los usuarios (pista: busca los postmortems de Amazon DynamoDB o los análisis de Jepsen).
+4. Busca un incidente real documentado donde la consistencia eventual causó un problema visible para los usuarios (postmortems de Amazon DynamoDB o los análisis de Jepsen).
 
 ---
 
@@ -49,7 +49,7 @@ En equipos de 2-3 personas investiguen los temas asignados. Cada equipo entrega 
 1. Describe las dos fases del protocolo con un diagrama de mensajes.
 2. ¿Por qué se dice que 2PC es un protocolo de bloqueo (*blocking protocol*)? ¿En qué escenario exacto ocurre el bloqueo?
 3. Investiga **Three-Phase Commit (3PC)**: ¿qué fase agrega y qué problema del 2PC intenta resolver? ¿Por qué no se usa ampliamente en producción?
-4. ¿Cómo maneja PostgreSQL las transacciones distribuidas con 2PC (busca `PREPARE TRANSACTION` en la documentación)?
+4. ¿Cómo maneja PostgreSQL las transacciones distribuidas con 2PC (`PREPARE TRANSACTION` en la documentación)?
 
 ---
 
